@@ -8,18 +8,28 @@
 body {
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
-
+.header {
+  margin-top: 2rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
 .grid-container {
   display: grid;
+  gap: 1px;
   min-height: 800px;
   max-width: 800px;
   margin: 2.5rem auto;
 }
 
+alert {
+  background-color: blanchedalmond;
+}
 .grid-cell {
   background-color: crimson;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .btn {
