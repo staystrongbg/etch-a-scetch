@@ -1,3 +1,3 @@
 # eatch a scetch project
-##live preview
+## live preview
 http://etch-a-sketch-blurb.surge.sh/
